@@ -90,6 +90,16 @@ main {
   grid-row: 1 / span 2;
 }
 
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.formulario input {
+  border-radius: 1.2rem;
+}
+
 .formulario span {
   font-size: 3rem;
   font-weight: 700;
