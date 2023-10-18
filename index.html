@@ -26,27 +26,27 @@
         <form action="#">
           <span>Preencha com os seus dados</span>
           <!-- Nome -->
-          <div class="nome-container">
+          <div class="input-container">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome">
           </div>
           <!-- Sobrenome -->
-          <div class="sobrenome-container">
+          <div class="input-container">
             <label for="sobrenome">Sobrenome</label>
             <input type="text" name="sobrenome" id="sobrenome">
           </div>
           <!-- Endereço -->
-          <div class="endereco-container">
+          <div class="input-container">
             <label for="endereco">Endereço</label>
             <input type="text" name="endereco" id="endereco">
           </div>
           <!-- E-mail -->
-          <div class="email-container">
+          <div class="input-container">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email">
           </div>
           <!-- Nomes dos pets -->
-          <div class="nomes-pets-container">
+          <div class="input-container">
             <!-- Gatos -->
             <label for="nomes-pets">Escolha um dos pets para adotar</label>
             <select name="nomes-pets" id="nomes-pets" class="gatos">
@@ -56,11 +56,13 @@
               <option value="pacoca">Paçoca</option>
             </select>
           <!-- Termo de adesão -->
-          <div class="termos-container">
-            <label for="cheese">Concorda com os termos de responsabilidade de adoção?</label>
+          <div class="input-container">
             <input type="checkbox" name="termos" id="termos" />
+            <label for="cheese">Concorda com os termos de responsabilidade de adoção?</label>
           </div>
-          <input type="submit" value="Enviar">
+          <div class="input-container">
+            <input type="submit" value="Enviar">
+          </div>
         </form>
       </section>
     </main>
