@@ -1,0 +1,96 @@
+/*
+TYPOGRAPHY SYSTEM
+Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+FONTS
+Reference: https://fonts.google.com/specimen/Open+Sans
+Font size: 10px (10px / 16px = 0.625 = 62.5%)
+Percentage of user's browser font-size setting
+
+ICONS
+Documentation: https://github.com/astrit/css.gg#get-started 
+
+INSPIRATIONS
+References: 
+
+COLORS
+Reference: https://yeun.github.io/open-color/#grape
+Main:
+Tints: 
+Greys:
+
+SHADOWS
+offset-x | offset-y | blur-radius | spread-radius | color
+
+BORDER-RADIUS
+Default: 
+Medium: 
+Big: 
+
+WHITESPACE
+Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* ICONS */
+@import url("https://css.gg/css");
+
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--main-purple);
+  overflow: hidden;
+  position: relative;
+}
+
+:root {
+  --white: #fff;
+  --main-purple: #6741d9;
+  --light-purple: #d0bfff;
+}
+
+/* Main styles */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  row-gap: 25vh;
+  column-gap: 25vw;
+}
+
+.intro {
+  background-color: #d0bfff;
+}
+.imagens-pets {
+  background-color: #d0bfff;
+}
+
+.formulario {
+  width: fit-content;
+  padding: 4.8rem;
+  background-color: var(--light-purple);
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.formulario span {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #6741d9;
+}
