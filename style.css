@@ -58,6 +58,8 @@ body {
   position: relative;
 }
 
+/* Color variables */
+
 :root {
   --white: #fff;
   --main-purple: #6741d9;
@@ -101,7 +103,7 @@ main {
 .formulario form {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2.4rem;
 }
 
 .formulario .input-container input {
@@ -120,5 +122,8 @@ main {
   color: var(--dark-gray);
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+.formulario .texto label {
   display: block;
 }
