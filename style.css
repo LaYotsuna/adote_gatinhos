@@ -113,9 +113,6 @@ main {
 .input-container {
   width: 70%;
   margin-bottom: 1.2rem;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .formulario .input-container input {
@@ -139,8 +136,26 @@ main {
   margin-bottom: 0.8rem;
 }
 
+.formulario .input-container .gatos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formulario .input-container.termos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
 #termos {
-  height: auto;
+  height: 1.6rem;
+  width: fit-content;
+}
+
+.formulario .input-container.termos label {
+  margin: 0 !important;
 }
 
 .formulario .submit {

@@ -9,13 +9,10 @@
   </head>
 
   <body>
-
     <main>
-      <header class="intro">
-      </header>
+      <header class="intro"></header>
 
-      <section class="imagens-pets">
-      </section>
+      <section class="imagens-pets"></section>
 
       <section class="formulario">
         <form action="#">
@@ -23,39 +20,46 @@
           <!-- Nome -->
           <div class="input-container texto">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" />
           </div>
           <!-- Sobrenome -->
           <div class="input-container texto">
             <label for="sobrenome">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome">
+            <input type="text" name="sobrenome" id="sobrenome" />
           </div>
           <!-- Endereço -->
           <div class="input-container texto">
             <label for="endereco">Endereço</label>
-            <input type="text" name="endereco" id="endereco">
+            <input type="text" name="endereco" id="endereco" />
           </div>
           <!-- E-mail -->
           <div class="input-container texto">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" />
           </div>
           <!-- Nomes dos pets -->
           <div class="input-container">
-            <label for="nomes-pets">Escolha um dos pets para adotar</label>
+            <label for="nomes-pets" class="gatos"
+              >Escolha um dos pets:</l
+            >
             <select name="nomes-pets" id="nomes-pets" class="gatos">
-              <option value="#" selected="true" disabled="disabled">Selecione uma opção</option>
+              <option value="#" selected="true" disabled="disabled">
+                Selecione uma opção
+              </option>
               <option value="frajola">Odisseu</option>
               <option value="frida">Frida</option>
               <option value="pacoca">Paçoca</option>
             </select>
+          </div>
           <!-- Termo de adesão -->
-          <div class="input-container">
-            <input type="checkbox" name="termos" id="termos" value="" />
-            <label for="termos" id="termos-label">Concorda com os termos de responsabilidade de adoção?</label>
+          <div class="input-container termos">
+            <input type="checkbox" name="termos" id="termos" />
+            <label for="termos" id="termos-label" 
+              >Concordo com os termos de adoção</label
+            >
           </div>
           <div class="input-container submit">
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" />
           </div>
         </form>
       </section>
