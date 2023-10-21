@@ -62,7 +62,7 @@ body {
 
 :root {
   --white: #fff;
-  --main-purple: #5f3dc4;
+  --main-purple: #614888;
   --light-purple: #d0bfff;
   --dark-gray: #212529;
 }
@@ -83,7 +83,7 @@ main {
   width: 75%;
   height: auto;
   color: var(--white);
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .intro h1 {
@@ -98,22 +98,22 @@ main {
 .imagens-pets {
   width: 100%;
   height: auto;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .imagens-pets img {
-  width: 100%;
+  width: 90%;
 }
 
 .intro,
 .imagens-pets {
-  padding-left: 10%;
+  margin-left: 10%;
 }
 
 .formulario span {
   font-size: 3rem;
   font-weight: 600;
-  color: #6741d9;
+  color: var(--main-purple);
   margin-top: 8rem;
   margin-bottom: 2.4rem;
 }
