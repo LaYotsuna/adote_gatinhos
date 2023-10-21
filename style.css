@@ -62,7 +62,7 @@ body {
 
 :root {
   --white: #fff;
-  --main-purple: #6741d9;
+  --main-purple: #5f3dc4;
   --light-purple: #d0bfff;
   --dark-gray: #212529;
 }
@@ -74,17 +74,40 @@ main {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   row-gap: 15vh;
   column-gap: 25vw;
 }
 
 .intro {
-  background-color: #d0bfff;
+  width: 75%;
+  height: auto;
+  color: var(--white);
+  padding-top: 5%;
+}
+
+.intro h1 {
+  font-size: 5.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.intro p {
+  font-size: 1.6rem;
 }
 
 .imagens-pets {
-  background-color: #d0bfff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.imagens-pets img {
+  width: 100%;
+}
+
+.intro,
+.imagens-pets {
+  padding-left: 10%;
 }
 
 .formulario span {
