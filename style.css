@@ -91,12 +91,13 @@ main {
   font-size: 3rem;
   font-weight: 600;
   color: #6741d9;
-  margin-top: 6.4rem;
+  margin-top: 8rem;
   margin-bottom: 2.4rem;
 }
 
 .formulario {
   width: 75%;
+  height: 95%;
   background-color: var(--light-purple);
   grid-column: 2;
   grid-row: 1 / span 2;
