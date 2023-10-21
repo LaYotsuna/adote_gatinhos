@@ -139,7 +139,8 @@ main {
 .formulario .input-container .gatos {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2.4rem;
 }
 
 .formulario .input-container.termos {
