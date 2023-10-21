@@ -105,6 +105,10 @@ main {
   width: 90%;
 }
 
+.desativado {
+  display: none;
+}
+
 .intro,
 .imagens-pets {
   margin-left: 10%;
