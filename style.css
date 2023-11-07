@@ -26,8 +26,8 @@ body {
 /* Color variables */
 :root {
   --white: #fff;
-  --main-purple: #614888;
-  --light-purple: #d0bfff;
+  --main-purple: #d87b2e;
+  --light-purple: #ffa94d;
   --dark-gray: #212529;
 }
 
@@ -63,6 +63,7 @@ header {
 
 .imagens-pets {
   margin-top: 3.2rem;
+  margin-right: 0.8rem;
 }
 
 .imagens-pets img {
@@ -87,12 +88,13 @@ main {
   background-color: var(--light-purple);
   border-bottom-left-radius: 3.2rem;
   border-bottom-right-radius: 3.2rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .formulario span {
   font-size: 3rem;
   font-weight: 600;
-  color: var(--main-purple);
+  color: #96521b;
   margin-top: 8rem;
   margin-bottom: 2.4rem;
 }
@@ -159,6 +161,8 @@ main {
 }
 
 .formulario .input-container.submit input {
+  background-color: #96521b;
+  color: #fff;
   font-family: "Open Sans", sans-serif !important;
   font-weight: 600 !important;
 }
