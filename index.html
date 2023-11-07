@@ -4,31 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adote Gatinhos</title>
+    <link rel="shortcut icon" href="/img/gato_icone.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
 
   <body>
+    <!-- Intro -->
+    <header class="intro">
+      <h1>Adote um gato!</h1>
+      <p>
+        Além de proporcionar um lar amoroso a um felino que pode ter sido
+        abandonado ou estar em situação de risco, os gatos são companheiros
+        afetuosos que enriquecem nosso dia a dia com sua independência e
+        personalidade única.
+      </p>
+      <br />
+      <br />
+      <p>
+        Eles ajudam a reduzir o estresse, proporcionam momentos de alegria e
+        diversão com suas travessuras e, ao mesmo tempo, requerem menos atenção
+        direta em comparação a outros animais de estimação.
+      </p>
+
+      <div class="imagens-pets">
+        <img src="img/gato_main.jpg" alt="Filhote de gato" class="ativo" />
+        <img src="img/gato_1.jpg" alt="Odisseu" class="desativado" />
+        <img src="img/gato_2.jpg" alt="Frida" class="desativado" />
+        <img src="img/gato_3.jpg" alt="Paçoca" class="desativado" />
+      </div>
+    </header>
+
     <main>
-      <!-- Intro -->
-      <header class="intro">
-        <h1>Adote um gato!</h1>
-        <p>Além de proporcionar um lar amoroso a um felino que pode ter sido abandonado ou estar em situação de risco, os gatos são companheiros afetuosos que enriquecem nosso dia a dia com sua independência e personalidade única. Eles ajudam a reduzir o estresse, proporcionam momentos de alegria e diversão com suas travessuras e, ao mesmo tempo, requerem menos atenção direta em comparação a outros animais de estimação, tornando-se uma excelente opção para quem busca uma companhia equilibrada e de baixa manutenção.</p>
-      </header>
-
-      <section class="imagens-pets">
-        <img src="img/gato_1.jpeg" alt="Filhote de gato" class="ativo">
-        <img src="img/odisseu.jpg" alt="Odisseu" class="desativado">
-        <img src="img/frida.jpg" alt="Frida" class="desativado">
-        <img src="img/pacoca.jpg" alt="Paçoca" class="desativado">
-      </section>
-
       <section class="formulario">
         <form action="#">
           <span>Preencha com os seus dados</span>
           <!-- Nome -->
           <div class="input-container texto">
-            <label for="nome">Nome</label>\
+            <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" />
           </div>
           <!-- Sobrenome -->
@@ -47,10 +60,8 @@
             <input type="email" name="email" id="email" />
           </div>
           <!-- Nomes dos pets -->
-          <div class="input-container">
-            <label for="nomes-pets" class="gatos"
-              >Escolha um dos pets:</l
-            >
+          <div class="input-container gatos">
+            <label for="nomes-pets">Escolha um dos pets:</label>
             <select name="nomes-pets" id="nomes-pets" class="gatos">
               <option value="#" selected="true" disabled="disabled">
                 Selecione uma opção
@@ -63,7 +74,7 @@
           <!-- Termo de adesão -->
           <div class="input-container termos">
             <input type="checkbox" name="termos" id="termos" />
-            <label for="termos" id="termos-label" 
+            <label for="termos" id="termos-label"
               >Concordo com os termos de adoção</label
             >
           </div>
